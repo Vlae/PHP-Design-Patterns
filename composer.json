@@ -1,0 +1,14 @@
+{
+
+  "autoload": {
+    "psr-4": {
+      "Singleton\\": "Singleton"
+    }
+  },
+
+  "require-dev": {
+    "php": ">=7.0",
+    "phpunit/phpunit": ">=5.1.3"
+  }
+
+}

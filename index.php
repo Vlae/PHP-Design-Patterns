@@ -1,7 +1,9 @@
 <?php
 
-include_once 'Singletone.php';
+include_once 'vendor/autoload.php';
 
-var_dump(Singletone::getInstance(['something' => 'First Value']));
-var_dump(Singletone::getInstance(['something_else' => 'Second Value']));
+use Singleton\Singleton;
 
+
+var_dump(Singleton::getInstance(['something' => 'First Value']));
+var_dump(Singleton::getInstance(['something_else' => 'Second Value']));
